@@ -4,6 +4,14 @@ const arguments = process.argv.slice(2)
 // console.log(arguments)
 
 
+
+
+
+
+
+
+
+
 //leggere da console il file di testo indicato 
 async function readFile(file){
     const data=await fs.readFile(file)
@@ -19,9 +27,7 @@ async function writeFile(file, content){
 const text=
 `
 <ul>
-<li>ciao</li>
-<li>cia</li>
-<li>ci</li>
+<li>${arguments[0]}, ${arguments[1]} </li>
 </ul>
 
 `

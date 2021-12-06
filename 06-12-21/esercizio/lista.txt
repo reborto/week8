@@ -1,7 +1,5 @@
 
 <ul>
-<li>ciao</li>
-<li>cia</li>
-<li>ci</li>
+<li>pere, stefania </li>
 </ul>
 
