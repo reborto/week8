@@ -12,7 +12,7 @@ async function readFile(file){
 console.log(readFile('./lista.txt'))
 
 
-//scrive su file con sintassi html
+//scrive su file 
 async function writeFile(file, content){
     await fs.writeFile(file, content)
 }
