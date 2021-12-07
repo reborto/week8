@@ -55,7 +55,9 @@ comunque una mia idea e il consiglio scelse proprio quella link</p>
       <div className="contattami">
       <h2>contattami</h2>
       <p>Oggetto</p>
-      <p>Testo</p>
+      <textarea></textarea>
+      <p>Messaggio</p>
+      <textarea id="mess"></textarea>
 
       </div>
       <div className="footer">
